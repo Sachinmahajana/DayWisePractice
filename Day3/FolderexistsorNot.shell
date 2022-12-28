@@ -1,0 +1,8 @@
+
+if [ ! -d "folder_name" ]; then
+  
+  mkdir folder_name
+else
+  
+  echo "folder already exists.."
+fi

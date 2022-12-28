@@ -1,0 +1,26 @@
+
+
+
+echo "Executing hello world command..."
+hello world
+
+
+if [ $? -eq 0 ]
+then
+  echo "hello command executed successfully"
+else
+  echo "hello command failed"
+fi
+
+
+echo "Executing ls command..."
+ls
+
+
+if [ $? -eq 0 ]
+then
+  echo "ls command executed successfully"
+else
+  echo "ls command failed"
+fi
+

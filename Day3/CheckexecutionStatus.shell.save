@@ -1,0 +1,61 @@
+ list= `ls`
+ status=$?
+ if [ $status -eq 0 ]
+ then
+       echo "ls command executed sucessfully"
+ else
+       echo 'ls command not executed sucessfully'
+ fi
+ list= hello
+ status=$?
+ echo $?
+ if [ $status -eq 0 ]
+ then
+       echo "hello command executed sucessfully"
+ else
+       echo 'hello command not executed sucessfully'
+ fi
+CheckexecutionStatus.shell
+LogFiles.sh
+ToLogFiles.sh
+abc
+abc.log
+abc.log.1
+abc.pdf
+abc.txt
+archieve.sh
+backup
+cbc
+cbc.pdf
+cbc.txt
+cbk
+cbk.txt
+ceckexecutionStatus.shell
+cp
+dbc
+dbc.pdf
+dbc.txt
+def
+def.log
+def.txt
+done
+echo
+folderName=
+forloop
+forloops.sh
+ghi
+ghi.log
+ghi.txt
+jkl
+jkl.log
+jkl.txt
+ls
+mkdir
+mno
+mno.log
+mno.txt
+vds
+vds.pdf
+vds.txt
+cccccccccccccccc
+done

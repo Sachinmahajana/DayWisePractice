@@ -1,0 +1,16 @@
+list= `ls`
+status=$?
+if [$status -eq 0]
+then
+       echo "ls command executed sucessfully"
+else
+       echo "ls command not executed sucessfully"
+fi
+list=`hello`
+status=$?
+if [ $status -eq 0 ]
+then
+       echo "hello command executed sucessfully"
+else
+       echo "hello command not executed sucessfully"
+fi
